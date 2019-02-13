@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#0000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="mainstype">#232D40</color>
+    <color name="maintextcolor">#333333</color>
+
+    <color name="line">#eeeeee</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray">#bcbcbc</color>
+    <color name="power">#f4f4f4</color>
+    <color name="line_two">#f7f7f7</color>
+    <color name="black">#000000</color>
+
+    <color name="graphictext">#aaaaaa</color>
+    <color name="graphicline">#cccccc</color>
+    <color name="graphimain">#319BFF</color>
+
+    <!--半透明背景色-->
+    <color name="backgroud_alpha">#d1000000</color>
+
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="base_color_text_black">#3e3e39</color>
+
+    <!-- 半透明 -->
+    <color name="transparent2">#59000000</color>
+    <color name="transparent5">#50000000</color>
+    <color name="transparent8">#80000000</color>
+
+
+    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background">#ffeef1f2</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="background_quanju">#ffeef1f2</color>
+    <color name="big_text_color">#ff2b2b2b</color>
+    <color name="black_a10_color">#1a000000</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="cardview_dark_background">#ff202020</color>
+    <color name="cardview_light_background">#fffafafa</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="common_red">#ffe61773</color>
+    <color name="default_bg">#aa000000</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="divider_color">#ff55504a</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <color name="light_gray">#ffdddddd</color>
+    <color name="love_player_theme_color">#ff000000</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="normal_color">#ffffffff</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_dark">@color/material_grey_900</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="random_color_five">#ffc4e1ff</color>
+    <color name="random_color_four">#ffffd0ff</color>
+    <color name="random_color_one">#ffe0e0e0</color>
+    <color name="random_color_seven">#ffc7c7e2</color>
+    <color name="random_color_six">#ffcaffff</color>
+    <color name="random_color_three">#ffffd9ec</color>
+    <color name="random_color_two">#ffffd2d2</color>
+    <color name="ripple_material_dark">#42ffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="select_color">#ff00b2ff</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="tcolor_very_light_gray">#fff7f7f7</color>
+    <color name="textcolor">#ff666666</color>
+    <color name="top_bar_color">#ffea4a4d</color>
+    <color name="top_bar_textcolor">#ffffffff</color>
+    <color name="translate88">#88000000</color>
+
+    <color name="maintopc">#ffe56281</color>
+    <color name="c_fubg">#fff0f0f0</color>
+
+    <color name="maintoptvc">#ffefefef</color>
+
+
+
+    <color name="half_transparent">#80000000</color>
+    <color name="transparent_70">#70000000</color>
+
+    <color name="bg_topbar_pressed">#cccccc</color>
+    <color name="bg_normal_pressed">#f0f0f0</color>
+    <color name="topbar_text">#ffffff</color>
+    <color name="bg_topbar">#151515</color>
+
+    <color name="bg_login_pressed">#ff4646</color>
+    <color name="bg_login_normal">#ff4646</color>
+
+    <!--refresh-->
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+
+    <color name="red_f73737">#F73737</color>
+    <color name="grey_eeeeee">#eeeeee</color>
+    <color name="grey_dddcdc">#DDDCDC</color>
+
+
+    <color name="main_text_black1">#3D3E3D</color>
+    <color name="main_text_black2">#6f6f6f</color>
+    <color name="main_text_red">#FD594D</color>
+
+
+    <color name="color_ed">#EDEDED</color>
+    <color name="color_2a">#2A2A30</color>
+    <color name="color_00">#0084FF</color>
+    <color name="color_9b">#9B9B9B</color>
+    <color name="color_4a">#4A4A4A</color>
+    <color name="color_92">#929EAA</color>
+    <color name="color_DE">#DEDEDE</color>
+    <color name="color_1B">#1B0F01</color>
+    <color name="color_6B">#00266B</color>
+    <color name="color_F0">#F0F0F0</color>
+    <color name="color_E6">#E6EAEE</color>
+    <color name="color_47">#4790EC</color>
+    <color name="color_6F">#6F6F6F</color>
+    <color name="color_EC">#ECECEC</color>
+    <color name="color_30">#FF3B30</color>
+    <color name="color_8F">#828F8F8F</color>
+    <color name="color_8E">#8E8E93</color>
+    <color name="color_C7">#C7C7CC</color>
+    <color name="color_3F">#3F3F3F</color>
+    <color name="color_FF">#007AFF</color>
+    <color name="color_E7">#E7E7E7</color>
+    <color name="color_F8">#F8F8F8</color>
+    <color name="color_4D">#4D4D4D</color>
+    <color name="color_C6">#C6C6C6</color>
+    <color name="color_3B">#3B3B4D</color>
+    <color name="color_26">#140F26</color>
+    <color name="color_8A">#6C7B8A</color>
+
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <!-- QRCode scanner color end -->
+
+    <!-- 选择时间 -->
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+
+    <color name="color_8C">#8C8C8C</color>
+    <color name="orangeColor">#ff8127</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#FF4A4A4A</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#FFFF3B30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#FF007AFF</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+</resources>

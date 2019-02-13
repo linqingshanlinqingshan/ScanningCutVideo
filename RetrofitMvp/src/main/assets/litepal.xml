@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!-- 数据库名称 -->
+    <dbname value="retrofit_mvp" />
+
+    <!-- 数据库版本 -->
+    <version value="1" />
+
+    <!-- 数据映射模型 -->
+    <list>
+        <!--个人信息表-->
+        <!--<mapping class="com.interaction.briefstore.model.http.response.UserBean" />-->
+
+    </list>
+
+    <!-- 可以选择存储数据库/内部或者外部. 默认internal. -->
+    <!--<storage value="external" />-->
+    <!--<storage value="internal" />-->
+
+</litepal>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RetrofitMvp</string>
+
+    <string name="search_witness_top">搜索话题、关键字</string>
+
+    <string name="msg_load_ing">加载中....</string>
+
+    <string name="cache_product">product</string>
+    <string name="cache_case">case</string>
+    <string name="cache_case_directory">/briefstore/case</string>
+    <string name="cache_product_directory">/briefstore/product</string>
+    <string name="briefstore_directory">/briefstore</string>
+
+    <string name="briefstore_directory2">/briefstore/</string>
+    <string name="cache_case_directory2">/briefstore/case/</string>
+    <string name="cache_product_directory2">/briefstore/product/</string>
+
+    <string name="cache_temp_directory">/briefstore/temp/</string>
+
+    <string name="add_case_tip">请在网页端登陆设计师账号进行操作</string>
+
+</resources>

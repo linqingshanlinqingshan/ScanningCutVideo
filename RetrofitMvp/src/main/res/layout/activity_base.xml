@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/more"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/white" />
+
+    <!-- 通用标题栏布局 -->
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:id="@+id/layout_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/top_view"
+        android:background="@color/white" />
+
+    <!-- 内容布局 -->
+    <com.zhy.android.percent.support.PercentFrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_titleBar"
+        android:background="@color/white" />
+
+    <!-- 通用左边 -->
+    <ImageView
+        android:id="@+id/layout_leftMore"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="@dimen/zpx15dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/home_menu"
+        android:visibility="invisible"
+        app:layout_marginLeftPercent="0.5%h"
+        app:layout_marginTopPercent="2%h" />
+
+    <!-- 通用访问记录 -->
+    <ImageView
+        android:id="@+id/layout_rightRecord"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/zpx15dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/home_record"
+        android:visibility="invisible"
+        app:layout_marginLeftPercent="0.5%h"
+        app:layout_marginTopPercent="2%h" />
+
+    <!-- 通用到店记录 -->
+    <RelativeLayout
+        android:id="@+id/layout_maskLayer_record"
+        android:layout_width="@dimen/zpx262dp"
+        android:layout_height="@dimen/zpx346dp"
+        android:layout_below="@+id/layout_rightRecord"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_marginTop="-12dp">
+
+        <LinearLayout
+            android:id="@+id/layout_recordStart"
+            android:layout_width="@dimen/zpx262dp"
+            android:layout_height="@dimen/zpx346dp"
+            android:layout_marginRight="@dimen/zpx12dp"
+            android:background="@mipmap/bg_normal_record1"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/zpx32dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="到店记录"
+                android:textColor="#ECECEC"
+                android:textSize="@dimen/zpx26dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <ImageView
+                    android:id="@+id/layout_recordReduce"
+                    android:layout_width="@dimen/zpx58dp"
+                    android:layout_height="@dimen/zpx58dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/zpx32dp"
+                    android:src="@mipmap/record_reduce" />
+
+                <TextView
+                    android:id="@+id/layout_recordCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/zpx66dp" />
+
+                <ImageView
+                    android:id="@+id/layout_recordAdd"
+                    android:layout_width="@dimen/zpx58dp"
+                    android:layout_height="@dimen/zpx58dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/zpx32dp"
+                    android:src="@mipmap/record_add" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2">
+
+                <TextView
+                    android:id="@+id/layout_startRecord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/zpx32dp"
+                    android:layout_marginTop="@dimen/zpx18dp"
+                    android:layout_marginRight="@dimen/zpx32dp"
+                    android:layout_marginBottom="@dimen/zpx18dp"
+                    android:background="@drawable/check_circle_white"
+                    android:gravity="center"
+                    android:text="开始记录"
+                    android:textColor="#7B7B7B"
+                    android:textSize="@dimen/zpx26dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_recording"
+            android:layout_width="@dimen/zpx262dp"
+            android:layout_height="@dimen/zpx346dp"
+            android:layout_marginRight="@dimen/zpx12dp"
+            android:background="@mipmap/bg_normal_record1"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/zpx12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/layout_recordTime"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/zpx22dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00:22"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/zpx32dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="到店客户："
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/zpx28dp" />
+
+                <TextView
+                    android:id="@+id/layout_recordingCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/tv_tip"
+                    android:text="8"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/zpx39dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/layout_addInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/zpx32dp"
+                    android:layout_marginTop="@dimen/zpx10dp"
+                    android:layout_marginRight="@dimen/zpx32dp"
+                    android:layout_marginBottom="@dimen/zpx10dp"
+                    android:background="@drawable/check_circle_white"
+                    android:gravity="center"
+                    android:text="添加资料"
+                    android:textColor="#7B7B7B"
+                    android:textSize="@dimen/zpx26dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/layout_stopRecord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/zpx32dp"
+                    android:layout_marginTop="@dimen/zpx10dp"
+                    android:layout_marginRight="@dimen/zpx32dp"
+                    android:layout_marginBottom="@dimen/zpx10dp"
+                    android:background="@drawable/check_circle_white"
+                    android:gravity="center"
+                    android:text="停止记录"
+                    android:textColor="#7B7B7B"
+                    android:textSize="@dimen/zpx26dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 通用左侧栏遮罩层布局 -->
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:id="@+id/layout_maskLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:id="@+id/layout_leftView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@mipmap/common_bg_menu"
+            android:orientation="vertical">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:id="@+id/btn_mine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_heightPercent="18%h"
+                app:layout_marginTopPercent="3%h">
+
+                <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/zpx20dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icon_default_head" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="张甜甜"
+                        android:textColor="#464646"
+                        android:textSize="@dimen/zpx30dp" />
+
+                    <TextView
+                        android:id="@+id/tv_addressAndRole"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/zpx20dp"
+                        android:text="广州简一，店长"
+                        android:textColor="#9B9B9B"
+                        android:textSize="@dimen/zpx26dp" />
+                </LinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <ExpandableListView
+                android:id="@+id/layout_ExpandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"
+                android:groupIndicator="@null"
+                android:listSelector="#00000000"
+                android:scrollbars="none" />
+            <!--android:childDivider="@color/line"-->
+            <RelativeLayout
+                android:id="@+id/btn_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zpx88dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/icon_copyright" />
+            </RelativeLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/layout_rightView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="#44000000">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@mipmap/home_menu"
+                app:layout_marginLeftPercent="3.7%h"
+                app:layout_marginTopPercent="5.6%h" />
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</com.zhy.android.percent.support.PercentRelativeLayout>

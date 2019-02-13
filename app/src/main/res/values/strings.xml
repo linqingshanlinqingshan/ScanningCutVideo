@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">ScanningCutVideo</string>
+
+
+    <string name="msg_load_ing">加载中....</string>
+    <string name="load_ing">正在加载中...</string>
+
+    <!---->
+    <string name="personal_data">个人资料</string>
+    <string name="personal_data_works">个人代表作品</string>
+    <string name="personal_modify_data">修改资料</string>
+    <string name="point_will">点将</string>
+    <string name="fwqy">服务区域</string>
+    <string name="xl">学历/头衔</string>
+    <string name="ry">曾获荣誉</string>
+    <string name="qd">确定</string>
+    <string name="lxfs">联系方式</string>
+    <string name="khlx">客户类型</string>
+    <string name="xm">姓&#160;&#160;&#160;&#160;&#160;&#160;名</string>
+    <string name="yysj">预约时间</string>
+    <string name="xkh">新客户</string>
+    <string name="lkh">老客户</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="jbxx">基本信息</string>
+    <string name="grzp">个人照片</string>
+    <string name="zctp">仅支持JPG,PNG格式</string>
+    <string name="lzone">如：北京清华大学美术学院</string>
+    <string name="sc">上传</string>
+    <string name="almc">案例名称</string>
+    <string name="lztwo">如：佛山市禅城区季华一路智慧新城T栋万达广场</string>
+    <string name="alt">案例图</string>
+    <string name="time">入职时间</string>
+
+
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+
+    <string name="enter">"确定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="is_upload">"确定上传？"</string>
+
+    <string name="edit">"编辑"</string>
+    <string name="move">"转移"</string>
+    <string name="delete">"删除"</string>
+    <string name="type">"1"</string>
+
+    <string name="img">"IMG"</string>
+    <string name="show_img">"SHOW_IMG"</string>
+    <string name="video">"VIDEO"</string>
+    <string name="show_videos">"SHOW_VIDEO"</string>
+    <string name="shooting">"SHOOTING"</string>
+    <string name="local">"LOCAL"</string>
+
+    <string name="send_post_ok">"SEND_POST_OK"</string>
+
+
+    <string name="cut_video_path">"CUT_VIDEO_PATH"</string>
+    <string name="open_gps">要使用定位功能，请打开GPS连接</string>
+
+    <string name="report">举报</string>
+
+    <string name="enter_report">确定举报？</string>
+    <string name="enter_delete">确定删除？</string>
+
+    <string name="search_topic_key">搜索话题、关键字</string>
+
+    <string name="content_hide">收起</string>
+
+    <string name="content_show">显示全部</string>
+
+    <string name="show_all_comments">查看全部评论</string>
+
+    <string name="new_folder">新建文件夹</string>
+    <string name="connection">收藏</string>
+    <string name="connection_move">移动</string>
+
+    <string name="move_to">移动到</string>
+    <string name="cancel_connection">取消收藏</string>
+
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+
+    <string name="month_check">按月查询</string>
+    <string name="day_check">按天查询</string>
+
+
+    <string name="my_area">简一大理石瓷砖</string>
+
+    <string name="classic_case_space_id">空间</string>
+
+    <string name="classic_case_all_space">全部空间</string>
+    <string name="core_tip">请将手机屏幕旋转90度\n横屏体验</string>
+
+
+    <string name="data_cebter_into_store_people_count_title">总进店人数</string>
+    <string name="data_cebter_into_store_people_count_title2">日均进店记录数</string>
+
+    <string name="data_center_in_store_time_count_title">留店时长统计：</string>
+    <string name="data_center_transform_customer_scale_title">转化客户比例：</string>
+    <string name="data_center_new_old_customer_scale_title">新旧客户占比：</string>
+
+
+    <string name="store_tatol_order_data_money_title">门店总成单金额</string>
+    <string name="store_tatol_order_data_num_title">门店总成单数</string>
+    <string name="store_tatol_order_data_seal_title">密缝铺贴</string>
+    <string name="my_order_data_money_title">我的成单金额</string>
+    <string name="my_order_data_num_title">我的成单数</string>
+
+    <string name="store_order_scale_open">展开</string>
+    <string name="store_order_scale_title_store">门店成单比例</string>
+    <string name="store_order_scale_title_people">店员成单比例</string>
+
+    <string name="ranktype">3</string>
+
+    <string name="web_view_time">date</string>
+
+    <string name="selectHuxing">请选择需求户型</string>
+    <string name="selectColorSystem">请选择色系偏好</string>
+    <string name="selectStyle">请选择风格偏好</string>
+    <string name="selectBudget">请选择预算范围</string>
+    <string name="selectIndustry">请选择所在行业</string>
+    <string name="selectInterest">请选择兴趣爱好</string>
+    <string name="selectInclination">请选择装修倾向</string>
+
+    <string name="null_">null_</string>
+
+    <string name="search_witness_top">搜索话题、关键字</string>
+
+    <string name="color_welcome_round_bg">#aaaaaa</string>
+
+    <string name="cache_product">product</string>
+    <string name="cache_case">case</string>
+    <string name="cache_case_directory">/briefstore/case</string>
+    <string name="cache_product_directory">/briefstore/product</string>
+    <string name="briefstore_directory">/briefstore</string>
+
+    <string name="briefstore_directory2">/briefstore/</string>
+    <string name="cache_case_directory2">/briefstore/case/</string>
+    <string name="cache_product_directory2">/briefstore/product/</string>
+
+    <string name="cache_temp_directory">/briefstore/temp/</string>
+
+    <string name="add_case_tip">请在网页端登陆设计师账号进行操作</string>
+</resources>
